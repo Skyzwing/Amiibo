@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		65DADB52C7FE49EABEDFE1D9 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 585D635632E0DFCEF90AC3AB /* Pods_Services.framework */; };
-		BFA18D62217849084E111325 /* Pods_amiibo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF4E24B54D44E348D1549EF /* Pods_amiibo_swiftUITests.framework */; };
-		D74F2C54716C78DF7DB592BF /* Pods_amiibo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECC369882E4CD79ED0F83CE /* Pods_amiibo_swift.framework */; };
-		E0ADD6E64E4DF147F400953E /* Pods_amiibo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD47C9674B2DCC73E5995937 /* Pods_amiibo_swiftTests.framework */; };
+		43EEE3C7F760D0C1EC822324 /* Pods_amiibo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */; };
+		A9637DF7200A8AFFBD314655 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */; };
+		E889965B5C82DA98567C3881 /* Pods_amiibo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */; };
 		EE0A8831265BA94E00DE81FE /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A8828265BA94D00DE81FE /* Services.framework */; };
 		EE0A8838265BA94E00DE81FE /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A8837265BA94E00DE81FE /* ServicesTests.swift */; };
 		EE0A883A265BA94E00DE81FE /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0A882A265BA94D00DE81FE /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,6 +23,7 @@
 		EEEEA943265BA337005CE457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEA941265BA337005CE457 /* LaunchScreen.storyboard */; };
 		EEEEA94E265BA337005CE457 /* amiibo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA94D265BA337005CE457 /* amiibo_swiftTests.swift */; };
 		EEEEA959265BA337005CE457 /* amiibo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA958265BA337005CE457 /* amiibo_swiftUITests.swift */; };
+		F0574F52A261289250389FFA /* Pods_amiibo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,21 +79,24 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09AC4844BE5FA043FE7D880C /* Pods-amiibo-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		1CDB4B1418AD243F2F464403 /* Pods-amiibo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.release.xcconfig"; sourceTree = "<group>"; };
-		2E4C202CD8F8697574B3E214 /* Pods-amiibo-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		585D635632E0DFCEF90AC3AB /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BF4E24B54D44E348D1549EF /* Pods_amiibo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		868F972DC1AE251430BA6E7A /* Pods-amiibo-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B5FF382729F75DAF6D0AC7B5 /* Pods-amiibo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		D7ACD3BE0C1F8A238576DBF5 /* Pods-amiibo-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
+		5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.release.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.release.xcconfig"; sourceTree = "<group>"; };
+		6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A8828265BA94D00DE81FE /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A882A265BA94D00DE81FE /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		EE0A882B265BA94D00DE81FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0A8830265BA94E00DE81FE /* ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A8837265BA94E00DE81FE /* ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
 		EE0A8839265BA94E00DE81FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EECC369882E4CD79ED0F83CE /* Pods_amiibo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEA933265BA334005CE457 /* amiibo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amiibo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEA936265BA335005CE457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEEA938265BA335005CE457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,9 +111,6 @@
 		EEEEA954265BA337005CE457 /* amiibo-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amiibo-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEA958265BA337005CE457 /* amiibo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amiibo_swiftUITests.swift; sourceTree = "<group>"; };
 		EEEEA95A265BA337005CE457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7F790019401A033C01D43A3 /* Pods-Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.release.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.release.xcconfig"; sourceTree = "<group>"; };
-		FA5D9EB33CEEAD8BF8FEC4AF /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
-		FD47C9674B2DCC73E5995937 /* Pods_amiibo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65DADB52C7FE49EABEDFE1D9 /* Pods_Services.framework in Frameworks */,
+				A9637DF7200A8AFFBD314655 /* Pods_Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0A883D265BA94E00DE81FE /* Services.framework in Frameworks */,
-				D74F2C54716C78DF7DB592BF /* Pods_amiibo_swift.framework in Frameworks */,
+				E889965B5C82DA98567C3881 /* Pods_amiibo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0ADD6E64E4DF147F400953E /* Pods_amiibo_swiftTests.framework in Frameworks */,
+				F0574F52A261289250389FFA /* Pods_amiibo_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,24 +151,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA18D62217849084E111325 /* Pods_amiibo_swiftUITests.framework in Frameworks */,
+				43EEE3C7F760D0C1EC822324 /* Pods_amiibo_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE4A0A4E52335432C3F8787 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */,
+				E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */,
+				CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */,
+				8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E281EB2AA75156FC9C180E70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5FF382729F75DAF6D0AC7B5 /* Pods-amiibo-swift.debug.xcconfig */,
-				1CDB4B1418AD243F2F464403 /* Pods-amiibo-swift.release.xcconfig */,
-				09AC4844BE5FA043FE7D880C /* Pods-amiibo-swiftTests.debug.xcconfig */,
-				D7ACD3BE0C1F8A238576DBF5 /* Pods-amiibo-swiftTests.release.xcconfig */,
-				2E4C202CD8F8697574B3E214 /* Pods-amiibo-swiftUITests.debug.xcconfig */,
-				868F972DC1AE251430BA6E7A /* Pods-amiibo-swiftUITests.release.xcconfig */,
-				FA5D9EB33CEEAD8BF8FEC4AF /* Pods-Services.debug.xcconfig */,
-				F7F790019401A033C01D43A3 /* Pods-Services.release.xcconfig */,
+				11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */,
+				5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */,
+				C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */,
+				AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */,
+				8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */,
+				86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */,
+				B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */,
+				6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -201,7 +212,7 @@
 				EE0A8836265BA94E00DE81FE /* ServicesTests */,
 				EEEEA934265BA334005CE457 /* Products */,
 				E281EB2AA75156FC9C180E70 /* Pods */,
-				F4FA25F4CE0212EAB297DBF5 /* Frameworks */,
+				0AE4A0A4E52335432C3F8787 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,17 +260,6 @@
 			path = "amiibo-swiftUITests";
 			sourceTree = "<group>";
 		};
-		F4FA25F4CE0212EAB297DBF5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EECC369882E4CD79ED0F83CE /* Pods_amiibo_swift.framework */,
-				FD47C9674B2DCC73E5995937 /* Pods_amiibo_swiftTests.framework */,
-				6BF4E24B54D44E348D1549EF /* Pods_amiibo_swiftUITests.framework */,
-				585D635632E0DFCEF90AC3AB /* Pods_Services.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -278,7 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE0A8844265BA94E00DE81FE /* Build configuration list for PBXNativeTarget "Services" */;
 			buildPhases = (
-				3B384F9AAC4A1DA893487D42 /* [CP] Check Pods Manifest.lock */,
+				E374A0FB9A4BE8561DAB7A38 /* [CP] Check Pods Manifest.lock */,
 				EE0A8823265BA94D00DE81FE /* Headers */,
 				EE0A8824265BA94D00DE81FE /* Sources */,
 				EE0A8825265BA94D00DE81FE /* Frameworks */,
@@ -316,12 +316,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA95D265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swift" */;
 			buildPhases = (
-				BFF55D4DEEA8DF4BEBFAB464 /* [CP] Check Pods Manifest.lock */,
+				1065E207438C7403EC876B00 /* [CP] Check Pods Manifest.lock */,
 				EEEEA92F265BA334005CE457 /* Sources */,
 				EEEEA930265BA334005CE457 /* Frameworks */,
 				EEEEA931265BA334005CE457 /* Resources */,
-				D85D31427C3DF296217E95B9 /* [CP] Embed Pods Frameworks */,
 				EE0A883F265BA94E00DE81FE /* Embed Frameworks */,
+				EE7E9CD9265BB20F0077E16F /* SwiftGen - Generate files  */,
+				16F48C037E52EE8DA1E05788 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -337,11 +338,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA960265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swiftTests" */;
 			buildPhases = (
-				AEEFFB6235339AEEDB4B4235 /* [CP] Check Pods Manifest.lock */,
+				86B0565BE71113ABC1736001 /* [CP] Check Pods Manifest.lock */,
 				EEEEA945265BA337005CE457 /* Sources */,
 				EEEEA946265BA337005CE457 /* Frameworks */,
 				EEEEA947265BA337005CE457 /* Resources */,
-				25055E3680FF7F79D3412052 /* [CP] Embed Pods Frameworks */,
+				2F96268DB06D8DDB1FF0C4C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,11 +358,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA963265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swiftUITests" */;
 			buildPhases = (
-				653FDEFF8CB2A663743BD2AD /* [CP] Check Pods Manifest.lock */,
+				EFA20984C051E0A8CDF73A3B /* [CP] Check Pods Manifest.lock */,
 				EEEEA950265BA337005CE457 /* Sources */,
 				EEEEA951265BA337005CE457 /* Frameworks */,
 				EEEEA952265BA337005CE457 /* Resources */,
-				13166C0505A9C2095A326CF1 /* [CP] Embed Pods Frameworks */,
+				7D72EF0F46B5E81888319F7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -466,107 +467,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13166C0505A9C2095A326CF1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		25055E3680FF7F79D3412052 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3B384F9AAC4A1DA893487D42 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Services-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		653FDEFF8CB2A663743BD2AD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AEEFFB6235339AEEDB4B4235 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFF55D4DEEA8DF4BEBFAB464 /* [CP] Check Pods Manifest.lock */ = {
+		1065E207438C7403EC876B00 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -588,7 +489,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D85D31427C3DF296217E95B9 /* [CP] Embed Pods Frameworks */ = {
+		16F48C037E52EE8DA1E05788 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -603,6 +504,124 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F96268DB06D8DDB1FF0C4C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D72EF0F46B5E81888319F7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B0565BE71113ABC1736001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E374A0FB9A4BE8561DAB7A38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Services-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7E9CD9265BB20F0077E16F /* SwiftGen - Generate files  */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "SwiftGen - Generate files ";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/SwiftGen/bin/swiftgen\"\n";
+		};
+		EFA20984C051E0A8CDF73A3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -701,7 +720,7 @@
 /* Begin XCBuildConfiguration section */
 		EE0A8840265BA94E00DE81FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA5D9EB33CEEAD8BF8FEC4AF /* Pods-Services.debug.xcconfig */;
+			baseConfigurationReference = 11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -729,7 +748,7 @@
 		};
 		EE0A8841265BA94E00DE81FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7F790019401A033C01D43A3 /* Pods-Services.release.xcconfig */;
+			baseConfigurationReference = 5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -913,7 +932,7 @@
 		};
 		EEEEA95E265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5FF382729F75DAF6D0AC7B5 /* Pods-amiibo-swift.debug.xcconfig */;
+			baseConfigurationReference = C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -933,7 +952,7 @@
 		};
 		EEEEA95F265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CDB4B1418AD243F2F464403 /* Pods-amiibo-swift.release.xcconfig */;
+			baseConfigurationReference = AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -953,7 +972,7 @@
 		};
 		EEEEA961265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09AC4844BE5FA043FE7D880C /* Pods-amiibo-swiftTests.debug.xcconfig */;
+			baseConfigurationReference = 8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -976,7 +995,7 @@
 		};
 		EEEEA962265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7ACD3BE0C1F8A238576DBF5 /* Pods-amiibo-swiftTests.release.xcconfig */;
+			baseConfigurationReference = 86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -999,7 +1018,7 @@
 		};
 		EEEEA964265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E4C202CD8F8697574B3E214 /* Pods-amiibo-swiftUITests.debug.xcconfig */;
+			baseConfigurationReference = B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1020,7 +1039,7 @@
 		};
 		EEEEA965265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 868F972DC1AE251430BA6E7A /* Pods-amiibo-swiftUITests.release.xcconfig */;
+			baseConfigurationReference = 6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

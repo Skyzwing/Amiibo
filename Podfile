@@ -5,6 +5,7 @@ inhibit_all_warnings!
 use_frameworks!
 
 def shared_libraries
+
   pod 'SwiftGen'
   pod 'Resolver'
   pod 'Firebase/Core'
@@ -15,24 +16,23 @@ end
 target 'amiibo-swift' do
   
   shared_libraries
-
-  # Pods for amiibo-swift
-
 end
 
+#Unit tests
 target 'amiibo-swiftTests' do
-
-  inherit! :search_paths
 
   shared_libraries
 end
 
+#UI tests
 target 'amiibo-swiftUITests' do
 
   shared_libraries
 end
 
 target 'Services' do
+
+  shared_libraries
 
   pod 'Moya'
   pod 'Alamofire'
