@@ -1,0 +1,6 @@
+framework module Pods_amiibo_swiftTests {
+  umbrella header "Pods-amiibo-swiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
