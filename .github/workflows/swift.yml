@@ -1,20 +1,13 @@
-name: Swift
+name: CI-Test
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
-  build:
-
+  test:
+    name: Test
     runs-on: macos-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: xcodebuild build -workspace 'amiibo-swift.xcworkspace' -scheme 'amiibo-swift' -destination 'platform=iOS Simulator,name=iPhone 12 Pro,OS=14.5'
-    - name: Run tests
-      run: xcodebuild test -workspace 'amiibo-swift.xcworkspace' -scheme 'amiibo-swift' -destination 'platform=iOS Simulator,name=iPhone 12 Pro,OS=14.5'
-
+    - name: Swift Action
+      uses: Didstopia/SwiftAction@v1.0.3
+      with:
+        swift-action: 'test'
