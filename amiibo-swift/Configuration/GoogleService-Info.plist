@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>405695070049-12vaj734q7dj0071o15dd2p088pq0ao6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.405695070049-12vaj734q7dj0071o15dd2p088pq0ao6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAvUFB4UyQmayO5cX6N-UY238_QF5Nx6vU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>405695070049</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.surachet.th.amiibo-swift</string>
+	<key>PROJECT_ID</key>
+	<string>amiibo-951c0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>amiibo-951c0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:405695070049:ios:6a9b6e4bfc873471fa0f20</string>
+</dict>
+</plist>

@@ -7,14 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43EEE3C7F760D0C1EC822324 /* Pods_amiibo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */; };
-		A9637DF7200A8AFFBD314655 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */; };
-		E889965B5C82DA98567C3881 /* Pods_amiibo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */; };
+		0DDEF9727477546B175F14DD /* Pods_amiibo_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7278DD0F206C44CBFDBC45C2 /* Pods_amiibo_swiftUITests.framework */; };
+		34FF131B12D9F66DFC546773 /* Pods_amiibo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3F69545C85883BB75E1EAE /* Pods_amiibo_swiftTests.framework */; };
+		4CB0E11957D8EE9E9C22482C /* Pods_amiibo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9A16EE45FE31F955584DF5 /* Pods_amiibo_swift.framework */; };
+		ED789C11EAE48938B05CBE61 /* Pods_Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636641E011A96A68A727DE8A /* Pods_Services.framework */; };
 		EE0A8831265BA94E00DE81FE /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A8828265BA94D00DE81FE /* Services.framework */; };
 		EE0A8838265BA94E00DE81FE /* ServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0A8837265BA94E00DE81FE /* ServicesTests.swift */; };
 		EE0A883A265BA94E00DE81FE /* Services.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0A882A265BA94D00DE81FE /* Services.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE0A883D265BA94E00DE81FE /* Services.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A8828265BA94D00DE81FE /* Services.framework */; };
 		EE0A883E265BA94E00DE81FE /* Services.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EE0A8828265BA94D00DE81FE /* Services.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EE469EB0265D09EC005BAA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */; };
+		EE469EB1265D09EC005BAA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */; };
+		EE469EB2265D09EC005BAA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */; };
+		EE469EB3265D0A41005BAA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */; };
+		EE469EB4265D0A41005BAA3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */; };
+		EE8B8002265F574A0047B43A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B8001265F574A0047B43A /* Font.swift */; };
+		EE8B8003265F574F0047B43A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B8001265F574A0047B43A /* Font.swift */; };
+		EE8B8004265F57500047B43A /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B8001265F574A0047B43A /* Font.swift */; };
+		EE8B8016265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8008265F5BCB0047B43A /* Nunito-BlackItalic.ttf */; };
+		EE8B8017265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8008265F5BCB0047B43A /* Nunito-BlackItalic.ttf */; };
+		EE8B8018265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8008265F5BCB0047B43A /* Nunito-BlackItalic.ttf */; };
+		EE8B8019265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8009265F5BCC0047B43A /* Nunito-BoldItalic.ttf */; };
+		EE8B801A265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8009265F5BCC0047B43A /* Nunito-BoldItalic.ttf */; };
+		EE8B801B265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8009265F5BCC0047B43A /* Nunito-BoldItalic.ttf */; };
+		EE8B801C265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800A265F5BCD0047B43A /* Nunito-SemiBoldItalic.ttf */; };
+		EE8B801D265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800A265F5BCD0047B43A /* Nunito-SemiBoldItalic.ttf */; };
+		EE8B801E265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800A265F5BCD0047B43A /* Nunito-SemiBoldItalic.ttf */; };
+		EE8B801F265F5BDA0047B43A /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800B265F5BCE0047B43A /* Nunito-Light.ttf */; };
+		EE8B8020265F5BDA0047B43A /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800B265F5BCE0047B43A /* Nunito-Light.ttf */; };
+		EE8B8021265F5BDA0047B43A /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800B265F5BCE0047B43A /* Nunito-Light.ttf */; };
+		EE8B8022265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800C265F5BCF0047B43A /* Nunito-SemiBold.ttf */; };
+		EE8B8023265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800C265F5BCF0047B43A /* Nunito-SemiBold.ttf */; };
+		EE8B8024265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800C265F5BCF0047B43A /* Nunito-SemiBold.ttf */; };
+		EE8B8025265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800D265F5BD00047B43A /* Nunito-Regular.ttf */; };
+		EE8B8026265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800D265F5BD00047B43A /* Nunito-Regular.ttf */; };
+		EE8B8027265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800D265F5BD00047B43A /* Nunito-Regular.ttf */; };
+		EE8B8028265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800E265F5BD10047B43A /* Nunito-ExtraBoldItalic.ttf */; };
+		EE8B8029265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800E265F5BD10047B43A /* Nunito-ExtraBoldItalic.ttf */; };
+		EE8B802A265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800E265F5BD10047B43A /* Nunito-ExtraBoldItalic.ttf */; };
+		EE8B802B265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800F265F5BD20047B43A /* Nunito-ExtraLight.ttf */; };
+		EE8B802C265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800F265F5BD20047B43A /* Nunito-ExtraLight.ttf */; };
+		EE8B802D265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B800F265F5BD20047B43A /* Nunito-ExtraLight.ttf */; };
+		EE8B802E265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8010265F5BD30047B43A /* Nunito-Bold.ttf */; };
+		EE8B802F265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8010265F5BD30047B43A /* Nunito-Bold.ttf */; };
+		EE8B8030265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8010265F5BD30047B43A /* Nunito-Bold.ttf */; };
+		EE8B8031265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8011265F5BD50047B43A /* Nunito-ExtraLightItalic.ttf */; };
+		EE8B8032265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8011265F5BD50047B43A /* Nunito-ExtraLightItalic.ttf */; };
+		EE8B8033265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8011265F5BD50047B43A /* Nunito-ExtraLightItalic.ttf */; };
+		EE8B8034265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8012265F5BD60047B43A /* Nunito-Italic.ttf */; };
+		EE8B8035265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8012265F5BD60047B43A /* Nunito-Italic.ttf */; };
+		EE8B8036265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8012265F5BD60047B43A /* Nunito-Italic.ttf */; };
+		EE8B8037265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8013265F5BD70047B43A /* Nunito-LightItalic.ttf */; };
+		EE8B8038265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8013265F5BD70047B43A /* Nunito-LightItalic.ttf */; };
+		EE8B8039265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8013265F5BD70047B43A /* Nunito-LightItalic.ttf */; };
+		EE8B803A265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8014265F5BD80047B43A /* Nunito-ExtraBold.ttf */; };
+		EE8B803B265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8014265F5BD80047B43A /* Nunito-ExtraBold.ttf */; };
+		EE8B803C265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8014265F5BD80047B43A /* Nunito-ExtraBold.ttf */; };
+		EE8B803D265F5BDA0047B43A /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8015265F5BD90047B43A /* Nunito-Black.ttf */; };
+		EE8B803E265F5BDA0047B43A /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8015265F5BD90047B43A /* Nunito-Black.ttf */; };
+		EE8B803F265F5BDA0047B43A /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8B8015265F5BD90047B43A /* Nunito-Black.ttf */; };
+		EEADBD00265F7916003DEB8F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEADBCFF265F7916003DEB8F /* swiftgen.yml */; };
+		EEADBD01265F7916003DEB8F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEADBCFF265F7916003DEB8F /* swiftgen.yml */; };
+		EEADBD02265F7916003DEB8F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEADBCFF265F7916003DEB8F /* swiftgen.yml */; };
+		EEADBD03265F7916003DEB8F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEADBCFF265F7916003DEB8F /* swiftgen.yml */; };
+		EEADBD04265F7916003DEB8F /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EEADBCFF265F7916003DEB8F /* swiftgen.yml */; };
+		EEADBD06265F792C003DEB8F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD05265F792C003DEB8F /* Colors.swift */; };
+		EEADBD07265F792C003DEB8F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD05265F792C003DEB8F /* Colors.swift */; };
+		EEADBD08265F792C003DEB8F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD05265F792C003DEB8F /* Colors.swift */; };
+		EEADBD0C265F793F003DEB8F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD0B265F793F003DEB8F /* Storyboard.swift */; };
+		EEADBD0D265F793F003DEB8F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD0B265F793F003DEB8F /* Storyboard.swift */; };
+		EEADBD0E265F793F003DEB8F /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD0B265F793F003DEB8F /* Storyboard.swift */; };
+		EEADBD12265F794C003DEB8F /* StoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD11265F794C003DEB8F /* StoryboardSegue.swift */; };
+		EEADBD13265F794C003DEB8F /* StoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD11265F794C003DEB8F /* StoryboardSegue.swift */; };
+		EEADBD14265F794C003DEB8F /* StoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD11265F794C003DEB8F /* StoryboardSegue.swift */; };
+		EEADBD18265F799F003DEB8F /* Imges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD17265F799F003DEB8F /* Imges.swift */; };
+		EEADBD19265F799F003DEB8F /* Imges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD17265F799F003DEB8F /* Imges.swift */; };
+		EEADBD1A265F799F003DEB8F /* Imges.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEADBD17265F799F003DEB8F /* Imges.swift */; };
+		EEADBD1C265F7B89003DEB8F /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = EEADBD1B265F7B89003DEB8F /* Colors.json */; };
+		EEADBD1D265F7B89003DEB8F /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = EEADBD1B265F7B89003DEB8F /* Colors.json */; };
+		EEADBD1E265F7B89003DEB8F /* Colors.json in Resources */ = {isa = PBXBuildFile; fileRef = EEADBD1B265F7B89003DEB8F /* Colors.json */; };
 		EEEEA937265BA335005CE457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA936265BA335005CE457 /* AppDelegate.swift */; };
 		EEEEA939265BA335005CE457 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA938265BA335005CE457 /* SceneDelegate.swift */; };
 		EEEEA93B265BA335005CE457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA93A265BA335005CE457 /* ViewController.swift */; };
@@ -23,7 +94,6 @@
 		EEEEA943265BA337005CE457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEEA941265BA337005CE457 /* LaunchScreen.storyboard */; };
 		EEEEA94E265BA337005CE457 /* amiibo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA94D265BA337005CE457 /* amiibo_swiftTests.swift */; };
 		EEEEA959265BA337005CE457 /* amiibo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEEA958265BA337005CE457 /* amiibo_swiftUITests.swift */; };
-		F0574F52A261289250389FFA /* Pods_amiibo_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,24 +149,45 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
-		5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.release.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.release.xcconfig"; sourceTree = "<group>"; };
-		6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.release.xcconfig"; sourceTree = "<group>"; };
-		B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1155C52DC1F94D2CE451D0E7 /* Pods-amiibo-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C0AC5199E07FEB1D90E02A6 /* Pods-amiibo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		4E45642691D521B25DB79E1F /* Pods-Services.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.release.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.release.xcconfig"; sourceTree = "<group>"; };
+		636641E011A96A68A727DE8A /* Pods_Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7278DD0F206C44CBFDBC45C2 /* Pods_amiibo_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7644AE1D85CF0BCBDB4B64D7 /* Pods-amiibo-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77244ADA7DEB2805874728A9 /* Pods-Services.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Services.debug.xcconfig"; path = "Target Support Files/Pods-Services/Pods-Services.debug.xcconfig"; sourceTree = "<group>"; };
+		88EC056E934C274A39AC5059 /* Pods-amiibo-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C9A16EE45FE31F955584DF5 /* Pods_amiibo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A852AF3A3DAEAFABAD712428 /* Pods-amiibo-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2D776D83874BA70D6DF74F3 /* Pods-amiibo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amiibo-swift.release.xcconfig"; path = "Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift.release.xcconfig"; sourceTree = "<group>"; };
 		EE0A8828265BA94D00DE81FE /* Services.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Services.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A882A265BA94D00DE81FE /* Services.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
 		EE0A882B265BA94D00DE81FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0A8830265BA94E00DE81FE /* ServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServicesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0A8837265BA94E00DE81FE /* ServicesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesTests.swift; sourceTree = "<group>"; };
 		EE0A8839265BA94E00DE81FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EE8B8001265F574A0047B43A /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		EE8B8008265F5BCB0047B43A /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EE8B8009265F5BCC0047B43A /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EE8B800A265F5BCD0047B43A /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EE8B800B265F5BCE0047B43A /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		EE8B800C265F5BCF0047B43A /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		EE8B800D265F5BD00047B43A /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		EE8B800E265F5BD10047B43A /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EE8B800F265F5BD20047B43A /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		EE8B8010265F5BD30047B43A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		EE8B8011265F5BD50047B43A /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		EE8B8012265F5BD60047B43A /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		EE8B8013265F5BD70047B43A /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		EE8B8014265F5BD80047B43A /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EE8B8015265F5BD90047B43A /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		EEADBCFF265F7916003DEB8F /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		EEADBD05265F792C003DEB8F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EEADBD0B265F793F003DEB8F /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		EEADBD11265F794C003DEB8F /* StoryboardSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardSegue.swift; sourceTree = "<group>"; };
+		EEADBD17265F799F003DEB8F /* Imges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imges.swift; sourceTree = "<group>"; };
+		EEADBD1B265F7B89003DEB8F /* Colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Colors.json; sourceTree = "<group>"; };
 		EEEEA933265BA334005CE457 /* amiibo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amiibo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEA936265BA335005CE457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEEEA938265BA335005CE457 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +202,7 @@
 		EEEEA954265BA337005CE457 /* amiibo-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amiibo-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEEA958265BA337005CE457 /* amiibo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amiibo_swiftUITests.swift; sourceTree = "<group>"; };
 		EEEEA95A265BA337005CE457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3F69545C85883BB75E1EAE /* Pods_amiibo_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amiibo_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +210,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9637DF7200A8AFFBD314655 /* Pods_Services.framework in Frameworks */,
+				ED789C11EAE48938B05CBE61 /* Pods_Services.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0A883D265BA94E00DE81FE /* Services.framework in Frameworks */,
-				E889965B5C82DA98567C3881 /* Pods_amiibo_swift.framework in Frameworks */,
+				4CB0E11957D8EE9E9C22482C /* Pods_amiibo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +235,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0574F52A261289250389FFA /* Pods_amiibo_swiftTests.framework in Frameworks */,
+				34FF131B12D9F66DFC546773 /* Pods_amiibo_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,20 +243,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43EEE3C7F760D0C1EC822324 /* Pods_amiibo_swiftUITests.framework in Frameworks */,
+				0DDEF9727477546B175F14DD /* Pods_amiibo_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AE4A0A4E52335432C3F8787 /* Frameworks */ = {
+		547ADCE0A806053C3E9E4FFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96154A24B2FBC92AD52F28B1 /* Pods_Services.framework */,
-				E89E91299CEB2C156A8D64CC /* Pods_amiibo_swift.framework */,
-				CCA3651026EAC7803380B7D9 /* Pods_amiibo_swiftTests.framework */,
-				8B390A6294DFBA0C7023ADA5 /* Pods_amiibo_swiftUITests.framework */,
+				636641E011A96A68A727DE8A /* Pods_Services.framework */,
+				9C9A16EE45FE31F955584DF5 /* Pods_amiibo_swift.framework */,
+				FF3F69545C85883BB75E1EAE /* Pods_amiibo_swiftTests.framework */,
+				7278DD0F206C44CBFDBC45C2 /* Pods_amiibo_swiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -172,14 +264,14 @@
 		E281EB2AA75156FC9C180E70 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */,
-				5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */,
-				C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */,
-				AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */,
-				8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */,
-				86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */,
-				B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */,
-				6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */,
+				77244ADA7DEB2805874728A9 /* Pods-Services.debug.xcconfig */,
+				4E45642691D521B25DB79E1F /* Pods-Services.release.xcconfig */,
+				2C0AC5199E07FEB1D90E02A6 /* Pods-amiibo-swift.debug.xcconfig */,
+				B2D776D83874BA70D6DF74F3 /* Pods-amiibo-swift.release.xcconfig */,
+				A852AF3A3DAEAFABAD712428 /* Pods-amiibo-swiftTests.debug.xcconfig */,
+				88EC056E934C274A39AC5059 /* Pods-amiibo-swiftTests.release.xcconfig */,
+				1155C52DC1F94D2CE451D0E7 /* Pods-amiibo-swiftUITests.debug.xcconfig */,
+				7644AE1D85CF0BCBDB4B64D7 /* Pods-amiibo-swiftUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -202,9 +294,78 @@
 			path = ServicesTests;
 			sourceTree = "<group>";
 		};
+		EE8B8000265F57220047B43A /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				EEADBD05265F792C003DEB8F /* Colors.swift */,
+				EE8B8001265F574A0047B43A /* Font.swift */,
+				EEADBD0B265F793F003DEB8F /* Storyboard.swift */,
+				EEADBD11265F794C003DEB8F /* StoryboardSegue.swift */,
+				EEADBD17265F799F003DEB8F /* Imges.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		EE8B8007265F5BB70047B43A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B8015265F5BD90047B43A /* Nunito-Black.ttf */,
+				EE8B8008265F5BCB0047B43A /* Nunito-BlackItalic.ttf */,
+				EE8B8010265F5BD30047B43A /* Nunito-Bold.ttf */,
+				EE8B8009265F5BCC0047B43A /* Nunito-BoldItalic.ttf */,
+				EE8B8014265F5BD80047B43A /* Nunito-ExtraBold.ttf */,
+				EE8B800E265F5BD10047B43A /* Nunito-ExtraBoldItalic.ttf */,
+				EE8B800F265F5BD20047B43A /* Nunito-ExtraLight.ttf */,
+				EE8B8011265F5BD50047B43A /* Nunito-ExtraLightItalic.ttf */,
+				EE8B8012265F5BD60047B43A /* Nunito-Italic.ttf */,
+				EE8B800B265F5BCE0047B43A /* Nunito-Light.ttf */,
+				EE8B8013265F5BD70047B43A /* Nunito-LightItalic.ttf */,
+				EE8B800D265F5BD00047B43A /* Nunito-Regular.ttf */,
+				EE8B800C265F5BCF0047B43A /* Nunito-SemiBold.ttf */,
+				EE8B800A265F5BCD0047B43A /* Nunito-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EE8B8040265F5E8A0047B43A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B8007265F5BB70047B43A /* Font */,
+				EEEEA93F265BA337005CE457 /* Assets.xcassets */,
+				EEADBD1B265F7B89003DEB8F /* Colors.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EEADBD1F265F7DEB003DEB8F /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				EE469EAF265D09EC005BAA3A /* GoogleService-Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		EEADBD20265F7DFE003DEB8F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EEEEA936265BA335005CE457 /* AppDelegate.swift */,
+				EEEEA938265BA335005CE457 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		EEADBD21265F7E0E003DEB8F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EEEEA93A265BA335005CE457 /* ViewController.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
 		EEEEA92A265BA334005CE457 = {
 			isa = PBXGroup;
 			children = (
+				EEADBCFF265F7916003DEB8F /* swiftgen.yml */,
 				EEEEA935265BA334005CE457 /* amiibo-swift */,
 				EEEEA94C265BA337005CE457 /* amiibo-swiftTests */,
 				EEEEA957265BA337005CE457 /* amiibo-swiftUITests */,
@@ -212,7 +373,7 @@
 				EE0A8836265BA94E00DE81FE /* ServicesTests */,
 				EEEEA934265BA334005CE457 /* Products */,
 				E281EB2AA75156FC9C180E70 /* Pods */,
-				0AE4A0A4E52335432C3F8787 /* Frameworks */,
+				547ADCE0A806053C3E9E4FFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,11 +392,12 @@
 		EEEEA935265BA334005CE457 /* amiibo-swift */ = {
 			isa = PBXGroup;
 			children = (
-				EEEEA936265BA335005CE457 /* AppDelegate.swift */,
-				EEEEA938265BA335005CE457 /* SceneDelegate.swift */,
-				EEEEA93A265BA335005CE457 /* ViewController.swift */,
+				EEADBD20265F7DFE003DEB8F /* Delegate */,
+				EEADBD1F265F7DEB003DEB8F /* Configuration */,
+				EE8B8040265F5E8A0047B43A /* Resources */,
+				EE8B8000265F57220047B43A /* Generated */,
+				EEADBD21265F7E0E003DEB8F /* Screen */,
 				EEEEA93C265BA335005CE457 /* Main.storyboard */,
-				EEEEA93F265BA337005CE457 /* Assets.xcassets */,
 				EEEEA941265BA337005CE457 /* LaunchScreen.storyboard */,
 				EEEEA944265BA337005CE457 /* Info.plist */,
 			);
@@ -278,7 +440,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE0A8844265BA94E00DE81FE /* Build configuration list for PBXNativeTarget "Services" */;
 			buildPhases = (
-				E374A0FB9A4BE8561DAB7A38 /* [CP] Check Pods Manifest.lock */,
+				5B040C956A1E2CA220B71C5E /* [CP] Check Pods Manifest.lock */,
 				EE0A8823265BA94D00DE81FE /* Headers */,
 				EE0A8824265BA94D00DE81FE /* Sources */,
 				EE0A8825265BA94D00DE81FE /* Frameworks */,
@@ -316,13 +478,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA95D265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swift" */;
 			buildPhases = (
-				1065E207438C7403EC876B00 /* [CP] Check Pods Manifest.lock */,
+				BB2AC85511DC2B7F446DCE39 /* [CP] Check Pods Manifest.lock */,
 				EEEEA92F265BA334005CE457 /* Sources */,
 				EEEEA930265BA334005CE457 /* Frameworks */,
 				EEEEA931265BA334005CE457 /* Resources */,
 				EE0A883F265BA94E00DE81FE /* Embed Frameworks */,
 				EE7E9CD9265BB20F0077E16F /* SwiftGen - Generate files  */,
-				16F48C037E52EE8DA1E05788 /* [CP] Embed Pods Frameworks */,
+				5047C0896871AED0980D7744 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,11 +500,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA960265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swiftTests" */;
 			buildPhases = (
-				86B0565BE71113ABC1736001 /* [CP] Check Pods Manifest.lock */,
+				690227C07EBA02966B47008C /* [CP] Check Pods Manifest.lock */,
 				EEEEA945265BA337005CE457 /* Sources */,
 				EEEEA946265BA337005CE457 /* Frameworks */,
 				EEEEA947265BA337005CE457 /* Resources */,
-				2F96268DB06D8DDB1FF0C4C1 /* [CP] Embed Pods Frameworks */,
+				13E4F3CC8DAD63F4BECEEE5D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -358,11 +520,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEEEA963265BA337005CE457 /* Build configuration list for PBXNativeTarget "amiibo-swiftUITests" */;
 			buildPhases = (
-				EFA20984C051E0A8CDF73A3B /* [CP] Check Pods Manifest.lock */,
+				4DB89808C92669F56022D55F /* [CP] Check Pods Manifest.lock */,
 				EEEEA950265BA337005CE457 /* Sources */,
 				EEEEA951265BA337005CE457 /* Frameworks */,
 				EEEEA952265BA337005CE457 /* Resources */,
-				7D72EF0F46B5E81888319F7D /* [CP] Embed Pods Frameworks */,
+				6FD891E46104515957E4263D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -385,6 +547,7 @@
 				TargetAttributes = {
 					EE0A8827265BA94D00DE81FE = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 					EE0A882F265BA94E00DE81FE = {
 						CreatedOnToolsVersion = 12.5;
@@ -430,6 +593,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE469EB3265D0A41005BAA3A /* GoogleService-Info.plist in Resources */,
+				EEADBD03265F7916003DEB8F /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +602,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE469EB4265D0A41005BAA3A /* GoogleService-Info.plist in Resources */,
+				EEADBD04265F7916003DEB8F /* swiftgen.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,9 +611,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B8025265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */,
+				EEADBD1C265F7B89003DEB8F /* Colors.json in Resources */,
+				EE8B8034265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */,
+				EE8B8019265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */,
+				EE8B802E265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */,
+				EE8B801C265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */,
+				EE8B802B265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */,
+				EEADBD00265F7916003DEB8F /* swiftgen.yml in Resources */,
 				EEEEA943265BA337005CE457 /* LaunchScreen.storyboard in Resources */,
+				EE8B8022265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */,
+				EE8B8031265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */,
 				EEEEA940265BA337005CE457 /* Assets.xcassets in Resources */,
+				EE8B8037265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */,
+				EE469EB0265D09EC005BAA3A /* GoogleService-Info.plist in Resources */,
 				EEEEA93E265BA335005CE457 /* Main.storyboard in Resources */,
+				EE8B803A265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */,
+				EE8B801F265F5BDA0047B43A /* Nunito-Light.ttf in Resources */,
+				EE8B8016265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */,
+				EE8B8028265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				EE8B803D265F5BDA0047B43A /* Nunito-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +638,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B8023265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */,
+				EE8B8035265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */,
+				EE8B801D265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */,
+				EEADBD1D265F7B89003DEB8F /* Colors.json in Resources */,
+				EEADBD01265F7916003DEB8F /* swiftgen.yml in Resources */,
+				EE8B8020265F5BDA0047B43A /* Nunito-Light.ttf in Resources */,
+				EE8B802C265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */,
+				EE8B8029265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				EE8B801A265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */,
+				EE8B802F265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */,
+				EE8B8038265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */,
+				EE8B8026265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */,
+				EE8B8032265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */,
+				EE8B803E265F5BDA0047B43A /* Nunito-Black.ttf in Resources */,
+				EE469EB1265D09EC005BAA3A /* GoogleService-Info.plist in Resources */,
+				EE8B8017265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */,
+				EE8B803B265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,52 +662,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B8024265F5BDA0047B43A /* Nunito-SemiBold.ttf in Resources */,
+				EE8B8036265F5BDA0047B43A /* Nunito-Italic.ttf in Resources */,
+				EE8B801E265F5BDA0047B43A /* Nunito-SemiBoldItalic.ttf in Resources */,
+				EEADBD1E265F7B89003DEB8F /* Colors.json in Resources */,
+				EEADBD02265F7916003DEB8F /* swiftgen.yml in Resources */,
+				EE8B8021265F5BDA0047B43A /* Nunito-Light.ttf in Resources */,
+				EE8B802D265F5BDA0047B43A /* Nunito-ExtraLight.ttf in Resources */,
+				EE8B802A265F5BDA0047B43A /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				EE8B801B265F5BDA0047B43A /* Nunito-BoldItalic.ttf in Resources */,
+				EE8B8030265F5BDA0047B43A /* Nunito-Bold.ttf in Resources */,
+				EE8B8039265F5BDA0047B43A /* Nunito-LightItalic.ttf in Resources */,
+				EE8B8027265F5BDA0047B43A /* Nunito-Regular.ttf in Resources */,
+				EE8B8033265F5BDA0047B43A /* Nunito-ExtraLightItalic.ttf in Resources */,
+				EE8B803F265F5BDA0047B43A /* Nunito-Black.ttf in Resources */,
+				EE469EB2265D09EC005BAA3A /* GoogleService-Info.plist in Resources */,
+				EE8B8018265F5BDA0047B43A /* Nunito-BlackItalic.ttf in Resources */,
+				EE8B803C265F5BDA0047B43A /* Nunito-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1065E207438C7403EC876B00 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-amiibo-swift-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		16F48C037E52EE8DA1E05788 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2F96268DB06D8DDB1FF0C4C1 /* [CP] Embed Pods Frameworks */ = {
+		13E4F3CC8DAD63F4BECEEE5D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -523,24 +702,68 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftTests/Pods-amiibo-swiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D72EF0F46B5E81888319F7D /* [CP] Embed Pods Frameworks */ = {
+		4DB89808C92669F56022D55F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86B0565BE71113ABC1736001 /* [CP] Check Pods Manifest.lock */ = {
+		5047C0896871AED0980D7744 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swift/Pods-amiibo-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B040C956A1E2CA220B71C5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Services-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690227C07EBA02966B47008C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -562,7 +785,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E374A0FB9A4BE8561DAB7A38 /* [CP] Check Pods Manifest.lock */ = {
+		6FD891E46104515957E4263D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amiibo-swiftUITests/Pods-amiibo-swiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2AC85511DC2B7F446DCE39 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -577,7 +817,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Services-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-amiibo-swift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -602,28 +842,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
 		};
-		EFA20984C051E0A8CDF73A3B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-amiibo-swiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -646,8 +864,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B8002265F574A0047B43A /* Font.swift in Sources */,
+				EEADBD06265F792C003DEB8F /* Colors.swift in Sources */,
 				EEEEA93B265BA335005CE457 /* ViewController.swift in Sources */,
+				EEADBD18265F799F003DEB8F /* Imges.swift in Sources */,
 				EEEEA937265BA335005CE457 /* AppDelegate.swift in Sources */,
+				EEADBD12265F794C003DEB8F /* StoryboardSegue.swift in Sources */,
+				EEADBD0C265F793F003DEB8F /* Storyboard.swift in Sources */,
 				EEEEA939265BA335005CE457 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -656,7 +879,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEADBD0D265F793F003DEB8F /* Storyboard.swift in Sources */,
+				EE8B8003265F574F0047B43A /* Font.swift in Sources */,
+				EEADBD07265F792C003DEB8F /* Colors.swift in Sources */,
+				EEADBD19265F799F003DEB8F /* Imges.swift in Sources */,
 				EEEEA94E265BA337005CE457 /* amiibo_swiftTests.swift in Sources */,
+				EEADBD13265F794C003DEB8F /* StoryboardSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,7 +892,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEADBD0E265F793F003DEB8F /* Storyboard.swift in Sources */,
+				EE8B8004265F57500047B43A /* Font.swift in Sources */,
+				EEADBD08265F792C003DEB8F /* Colors.swift in Sources */,
+				EEADBD1A265F799F003DEB8F /* Imges.swift in Sources */,
 				EEEEA959265BA337005CE457 /* amiibo_swiftUITests.swift in Sources */,
+				EEADBD14265F794C003DEB8F /* StoryboardSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,8 +953,9 @@
 /* Begin XCBuildConfiguration section */
 		EE0A8840265BA94E00DE81FE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11E7AB478F24325785FFD8DE /* Pods-Services.debug.xcconfig */;
+			baseConfigurationReference = 77244ADA7DEB2805874728A9 /* Pods-Services.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -739,6 +973,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.surachet.th.Services;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -748,8 +983,9 @@
 		};
 		EE0A8841265BA94E00DE81FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D877781936BA5715EFCC631 /* Pods-Services.release.xcconfig */;
+			baseConfigurationReference = 4E45642691D521B25DB79E1F /* Pods-Services.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -777,7 +1013,6 @@
 		EE0A8842265BA94E00DE81FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHK95RXFWX;
 				INFOPLIST_FILE = ServicesTests/Info.plist;
@@ -797,7 +1032,6 @@
 		EE0A8843265BA94E00DE81FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHK95RXFWX;
 				INFOPLIST_FILE = ServicesTests/Info.plist;
@@ -932,7 +1166,7 @@
 		};
 		EEEEA95E265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7B78A931937977755E0E6FE /* Pods-amiibo-swift.debug.xcconfig */;
+			baseConfigurationReference = 2C0AC5199E07FEB1D90E02A6 /* Pods-amiibo-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -942,6 +1176,52 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseCrashlytics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Resolver\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.surachet.th.amiibo-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -952,7 +1232,7 @@
 		};
 		EEEEA95F265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AEEE148E153AB2081A6AEE52 /* Pods-amiibo-swift.release.xcconfig */;
+			baseConfigurationReference = B2D776D83874BA70D6DF74F3 /* Pods-amiibo-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -963,8 +1243,55 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseCrashlytics\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"Moya\"",
+					"-framework",
+					"\"Resolver\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.surachet.th.amiibo-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -972,7 +1299,7 @@
 		};
 		EEEEA961265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FC891858CA1054C5CCA207E /* Pods-amiibo-swiftTests.debug.xcconfig */;
+			baseConfigurationReference = A852AF3A3DAEAFABAD712428 /* Pods-amiibo-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -995,7 +1322,7 @@
 		};
 		EEEEA962265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86FBA5A314EBDD192A39E10C /* Pods-amiibo-swiftTests.release.xcconfig */;
+			baseConfigurationReference = 88EC056E934C274A39AC5059 /* Pods-amiibo-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1018,7 +1345,7 @@
 		};
 		EEEEA964265BA337005CE457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2BB9D440CE367B9B4ECD722 /* Pods-amiibo-swiftUITests.debug.xcconfig */;
+			baseConfigurationReference = 1155C52DC1F94D2CE451D0E7 /* Pods-amiibo-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1039,7 +1366,7 @@
 		};
 		EEEEA965265BA337005CE457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F76D472FEBFCF1F15648050 /* Pods-amiibo-swiftUITests.release.xcconfig */;
+			baseConfigurationReference = 7644AE1D85CF0BCBDB4B64D7 /* Pods-amiibo-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

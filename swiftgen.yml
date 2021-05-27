@@ -1,0 +1,28 @@
+xcassets:
+  inputs: amiibo-swift/Resources/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: amiibo-swift/Generated/Images.swift
+
+colors:
+  inputs: amiibo-swift/Resources/Colors.json
+  outputs:
+    templateName: swift5
+    output: amiibo-swift/Generated/Colors.swift
+
+
+fonts:
+  inputs: amiibo-swift/Resources/Font
+  outputs:
+    templateName: swift5
+    output: amiibo-swift/Generated/Font.swift
+
+ib:
+  inputs: amiibo-swift
+  outputs:
+    - templateName: scenes-swift5
+      output: amiibo-swift/Generated/Storyboard.swift
+    - templateName: segues-swift5
+      output: amiibo-swift/Generated/StoryboardSegues.swift
+
+
