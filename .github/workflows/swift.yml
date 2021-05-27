@@ -1,8 +1,5 @@
-name: Test
-on:
-  push:
-    branches:
-      -main
+on: push
+name: CI Test
 jobs:
   test:
     name: Test
@@ -22,3 +19,15 @@ jobs:
           bash <(curl -s https://codecov.io/bash)
         env:
          destination: ${{ matrix.destination }}
+
+name: Slack Notification Demo
+jobs:
+  slackNotification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
