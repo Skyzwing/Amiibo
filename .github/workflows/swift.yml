@@ -1,13 +1,36 @@
-name: CI-Test
-
-on: [push]
-
+name: Test
+on:
+  push:
+    branches:
+      -main
 jobs:
   test:
     name: Test
-    runs-on: macos-latest
+    runs-on: macOS-latest
+    strategy:
+        matrix:
+          destination: ['platform=iOS Simulator,OS=12.2,name=iPhone X', 'platform=tvOS Simulator,OS=12.2,name=Apple TV 4K']
     steps:
-    - name: Swift Action
-      uses: Didstopia/SwiftAction@v1.0.3
-      with:
-        swift-action: 'test'
+      - name: Checkout
+        uses: actions/checkout@master
+      - name: Check device available
+        run: xcrun xctrace list devices
+      - name: Build and test
+        run: |
+          cd Texstyle
+          xcodebuild clean test -project Texstyle.xcodeproj -scheme Texstyle -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          bash <(curl -s https://codecov.io/bash)
+        env:
+         destination: ${{ matrix.destination }}
+         
+name: Slack Notification Demo
+jobs:
+  slackNotification:
+    name: Slack Notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
